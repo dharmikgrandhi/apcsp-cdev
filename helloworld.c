@@ -2,6 +2,6 @@
 
 int main()
 {
-	printf("Hello World! \n CCA is the Best \n APCSP is the best ");
+	printf("Hello World! \n CCA is the Best \n APCSP rocks ");
 	return 0;
 }
