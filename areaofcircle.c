@@ -32,7 +32,7 @@ int main(int argc, char* argv[])
   
   // add your code below to call areaOfCircle function with values between
   // start and end
-  for (float i = start; i < 8.2; i++)
+  for (float i = start; i < 7.2; i++)
   {
     float areas = areaOfCircle(i);
     printf("The area of the circle with the radius %f is %f\n", i, areas);
