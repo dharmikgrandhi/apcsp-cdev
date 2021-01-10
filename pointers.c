@@ -24,11 +24,7 @@ int main()
   float e = 5.12;
   float* ptrtoe = &e;
 
-  printf("The value of d is %f\n", d);
-  printf("The address of d is %p\n", (void*)&d);
-
-  printf("The value of e is %f\n", e);
-  printf("The address of e is %p\n", (void*)&e);
+  printf("The value of d is %f and the address is %p\nThe value of e is %f and the address is %p\n", d, (void*)&d, e, (void*)&e);
 
   float temp = *ptrtoe;
   *ptrtoe = *ptrtod;
